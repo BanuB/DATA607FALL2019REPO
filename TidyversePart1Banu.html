@@ -369,8 +369,9 @@ summary {
 </div>
 
 
-<div id="show-tidyverse-text-sentiment-analysis-by-taking-in-dataset-clean-up-tokens-perform-igraph-and-bing-sentiment-analysis" class="section level2">
-<h2>Show Tidyverse, text sentiment analysis by taking in dataset, clean up tokens, perform igraph and bing sentiment analysis</h2>
+<div id="show-tidyverse-text-sentiment-analysis-by-taking-in-dataset-clean-up-tokens-perform-igraph-and-bing-sentiment-analysis." class="section level2">
+<h2>Show Tidyverse, text sentiment analysis by taking in dataset, clean up tokens, perform igraph and bing sentiment analysis.</h2>
+<p>For this exercise I have used the FiveThirtyEightDataset. These are the GOP phrases that Candidates repeated the most <a href="https://github.com/fivethirtyeight/data/tree/master/repeated-phrases-gop" class="uri">https://github.com/fivethirtyeight/data/tree/master/repeated-phrases-gop</a> I downloaded the dataset from the website. And performed tidyverse to clean up the tokens, igraph and ggplot for bing sentiment.</p>
 <pre class="r"><code>mydata &lt;- read.csv(&quot;https://raw.githubusercontent.com/BanuB/DATA607FALL2019REPO/master/gop_debate_all1.csv&quot;, stringsAsFactors = FALSE)
 names(mydata) &lt;- c (&quot;textcol&quot;)
 #mydata[1:59,]
@@ -446,9 +447,9 @@ bigram_graph &lt;- bigram_counts %&gt;%
   graph_from_data_frame()
 
 bigram_graph</code></pre>
-<pre><code>## IGRAPH 3d1060a DN-- 109 77 -- 
+<pre><code>## IGRAPH 83d5555 DN-- 109 77 -- 
 ## + attr: name (v/c), n (e/n)
-## + edges from 3d1060a (vertex names):
+## + edges from 83d5555 (vertex names):
 ##  [1] hillary   -&gt;clinton    senator   -&gt;rubio      senator   -&gt;cruz      
 ##  [4] governor  -&gt;kasich     dr        -&gt;carson     governor  -&gt;bush      
 ##  [7] barack    -&gt;obama      donald    -&gt;trump      american  -&gt;people    

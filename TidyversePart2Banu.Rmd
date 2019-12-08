@@ -8,6 +8,8 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+## Banu Boopalan : Extend Salma's code (please see last code chunk added)
+
 ## Forcats package
 
 forcats provides a suite of useful tools that solve common problems with factors. R uses factors to handle categorical variables, variables that have a fixed and known set of possible values.
@@ -54,6 +56,9 @@ df %>%
 ```
 
 Pretty neat! you can easily identify the trends from graphs without any extra processing. 
+
+## Extend Salma's code and show fct_lump from forcats
+
 
 Extention by Banu : Here, I am reordering the least common levels into Other value so all females are mapped to other
 

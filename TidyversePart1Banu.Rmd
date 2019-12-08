@@ -24,7 +24,13 @@ library(textdata)
 
 ```
 
-## Show Tidyverse, text sentiment analysis by taking in dataset, clean up tokens, perform igraph and bing sentiment analysis
+## Show Tidyverse, text sentiment analysis by taking in dataset, clean up tokens, perform igraph and bing sentiment analysis. 
+
+For this exercise I have used the FiveThirtyEightDataset. These are the GOP phrases that Candidates repeated the most
+https://github.com/fivethirtyeight/data/tree/master/repeated-phrases-gop
+I downloaded the dataset from the website.
+And performed tidyverse to clean up the tokens, igraph and ggplot for bing sentiment.
+
 
 
 ```{r cars}
